@@ -15,7 +15,7 @@ const randomInteger = Math.floor(randomNumber);
 //randomInteger, which should take the value
 //in randomNumber and round it down to the nearest
 // integer.
-const randomUserID = randomInteger+1000000000;
+const randomUserID = 1000000000 + randomInteger;
 //randomUserID, which should convert randomInteger
 //into a valid ID number — an integer between 1000000001
 // and 1000000020.
