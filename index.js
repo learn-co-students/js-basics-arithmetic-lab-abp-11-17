@@ -1,3 +1,4 @@
+
 /*
 Variables defined in the test suite:
 - oldID
@@ -7,3 +8,12 @@ You should NOT try to redefine any of the above variables.
 */
 
 // Write your code below this line!
+const newID = 1000000000 + oldID;
+
+let ageIsValid = Number.isInteger(); /*good*/
+
+let randomNumber = Math.random(); /*good*/
+
+let randomInteger = Math.floor(randomNumber);
+
+let randomUserID = randomInteger + 1000000001;
