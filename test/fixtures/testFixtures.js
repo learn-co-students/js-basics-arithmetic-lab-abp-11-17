@@ -1,6 +1,6 @@
 const oldID = Math.floor(Math.random() * 100) + 1;
 
-const ages = [26.4, 21, 49.5, 83, 99, 53.3, 74, 94.9, 40, 56.2];
+const ages = [26, 21, 49, 83, 99, 53, 74, 94, 40, 56];
 
 const currentAge = ages[Math.floor(Math.random() * ages.length)];
 
