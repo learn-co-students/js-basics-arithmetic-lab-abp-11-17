@@ -16,7 +16,13 @@ let ageIsValid;
 ageIsValid = Number.isInteger(currentAge);
 
 randomNumber = Math.random();
+//randomNumber = (Math.floor(Math.random() * 20);
 
-randomInteger = Math.round(randomNumber);
+randomInteger = Math.floor(randomNumber);
 
-randomUserID = Number.isInteger(randomInteger);
+//randomUserID = Number.isInteger(randomInteger);
+
+
+flooredRandomInteger = Math.floor(randomNumber)
+//randomUserID = Math.floor(randomNumber);
+randomUserID = (Math.random(flooredRandomInteger) * 1000000020);
