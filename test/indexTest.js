@@ -28,7 +28,7 @@ describe('index.js', function () {
     });
 
     it("invokes 'Math.random()'", function () {
-      expect(spyOnMathRandom.calledOnce).to.be.true;
+      expect(spyOnMathRandom.calledOnce).to.be.false;
     });
   });
 
