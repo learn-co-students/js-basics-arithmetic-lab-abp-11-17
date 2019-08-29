@@ -1,4 +1,4 @@
-const expect = chai.expect;
+  const expect = chai.expect;
 spyOnNumberIsInteger.restore();
 
 describe('index.js', function() {
